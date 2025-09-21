@@ -1,6 +1,4 @@
-size = int(input("Enter the size of the pattern: "))
+number = int(input("Enter a number to see its multiplication table: "))
 
-i = 1
-while i <= size:
-    print("*" * i)
-    i += 1
+for i in range(1, 11):
+    print(f"{number} x {i} = {number * i}")
